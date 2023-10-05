@@ -1,0 +1,3 @@
+# Challenge 4
+
+Design a polymorphic container that can store pointers to objects of different classes derived from a common base class. Start by creating an abstract base class called `Drawable` with a pure virtual function `draw()`. Create two derived classes, `Circle` and `Square`, that inherit from `Drawable`. Implement the `draw()` function in each derived class to output a simple text representation of the respective shapes. Create a container class called `Scene` that can store pointers to `Drawable` objects. The `Scene` class should have a member function `render()` that calls the `draw()` function for each object stored in the container. Test your polymorphic container by adding `Circle` and `Square` objects to a `Scene` and rendering the scene.
