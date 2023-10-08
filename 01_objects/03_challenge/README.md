@@ -1,16 +1,16 @@
-# Challenge 3
+# チャレンジ3
 
-Create a `BankAccount` class with the following features:
+次の機能を備えた `BankAccount` クラスを作成します。
 
-- A private member variable `balance` (type `double`) to store the account balance.
-- A constructor that takes an initial balance as a parameter.
-- A member function `deposit` that takes a value of type `double` as a single argument, deposits the given amount into the account, and prints the current balance after deposit.
-- A member function `withdraw` that takes a value of type `double` as a single argument, withdraws the given amount from the account, and prints the current balance after withdrawal. If there are insufficient funds, print "Insufficient balance!" and do not perform the withdrawal.
-- A member function `get_balance` to return the current balance.
+- 口座残高を格納するためのprivateメンバ変数 `balance` (`double` 型)
+- 最初の口座残高を引数として受け取るコンストラクタ
+- `double` 型の値を引数として受け取るメンバ関数 `deposit`。引数で指定した金額を口座に入金し、入金後の残高を出力する
+- `double` 型の値を引数として受け取るメンバ関数 `withdraw`。引数で指定した金額を口座から出金し、出金後の残高を出力する。残高が不足している場合は、"Insufficient balance!"と出力して出金しない
+- 現在の残高を返すメンバ関数 `get_balance`
 
-Implement the `BankAccount` class and use it to perform a series of transactions.
+`BankAccount` クラスを実装し、それを使用して一連の処理を実行します。
 
-Input:
+入力:
 
 ```cpp
 BankAccount bank_account(100);
@@ -19,7 +19,7 @@ bank_account.withdraw(30);
 bank_account.withdraw(150);
 ```
 
-Output:
+出力:
 
 ```
 150

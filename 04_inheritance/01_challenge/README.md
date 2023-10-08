@@ -1,3 +1,3 @@
-# Challenge 1
+# チャレンジ1
 
-Imagine you are designing a simple vehicle hierarchy. The base class is called Vehicle, which contains common properties like speed and fuel. You also have two derived classes: Car and Motorcycle, both of which inherit from Vehicle. Create a pseudocode representation of this class hierarchy.
+乗り物のシンプルなクラス階層を設計しているとします。Vehicleという基底クラスがあり、これには速度や燃料などの共通のプロパティが含まれています。また、CarとMotorcycleという2つの派生クラスがあり、どちらもVehicleを継承しています。このクラス階層の擬似コードを作成してください。

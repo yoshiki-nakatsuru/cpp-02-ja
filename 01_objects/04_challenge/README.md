@@ -1,15 +1,15 @@
-# Challenge 4
+# チャレンジ4
 
-Implement a `Person` class with a `std::string` name member variable and a constructor that takes a name as a parameter.
+`Person` クラスを作成します。`std::string` 型のメンバ変数nameを追加し、このnameを引数として受け取るコンストラクタを実装してください。
 
-Implement a `Team` class with the following features:
+次の機能を備えた `Team` クラスを実装してください。
 
-- A `std::vector<Person>` member variable representing the team members.
-- A member function `add_member` to add a member to the team.
+- チームメンバーを表すメンバ変数 `std::vector<Person>`
+- チームにメンバーを追加するメンバ関数 `add_member`
 
-Implement a `Project` class with the following features:
+次の機能を備えた `Project` クラスを実装してください。
 
-- A private `Team` member variable representing the project team.
-- A constructor that initializes the `Team` object.
-- A member function `add_team_member` to add a member to the team.
-- A member function `print_team_members` to print the members of the team.
+- プロジェクトチームを表すprivateメンバ変数 `Team`
+- `Team` オブジェクトを初期化するコンストラクタ
+- チームにメンバーを追加するメンバ関数 `add_team_member`
+- チームのメンバーを出力するメンバ関数 `print_team_members`
