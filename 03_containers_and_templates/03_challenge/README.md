@@ -1,3 +1,3 @@
-# Challenge 3
+# チャレンジ3
 
-Compare the performance of `std::vector`, `std::list`, and `std::deque` when used as the underlying data structure for a stack. Write a small program that performs a series of push and pop operations on a stack, then time the execution for each container type. Determine which container is the best choice for this application and explain your choice. Make sure to compile with -O0 so the compiler doesn't optimize away your code and result in useless benchmarks.
+スタックの基本データ構造として `std::vector`、`std::list`、`std::deque` を使用した場合のパフォーマンスを比較します。スタックで一連のプッシュ操作とポップ操作を実行する小さなプログラムを作成し、コンテナの種類ごとに実行時間を計ります。このアプリケーションに最適なコンテナを判断し、その理由を説明してください。コンパイラがコードを最適化しないように、必ず-O0を指定してコンパイルしてください。最適化されたベンチマークの値では適切に比較できません。

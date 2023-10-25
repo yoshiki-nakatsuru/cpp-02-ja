@@ -1,3 +1,3 @@
-# Challenge 1
+# チャレンジ1
 
-Create a function template called print_elements that accepts a standard library container (like `std::vector`, `std::list`, or `std::deque`) and prints its elements. Test your function with at least two different types of containers.
+標準ライブラリのコンテナ (`std::vector`、`std::list`、`std::deque`など) を引数にとり、その要素を出力する関数テンプレート「print_elements」を作成します。2種類以上のコンテナを使用して関数をテストしてください。

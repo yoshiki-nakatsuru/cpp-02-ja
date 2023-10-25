@@ -1,7 +1,7 @@
-# Challenge 5: Putting It All Together
+# チャレンジ5: さまざまな関係
 
-1. Create classes for `School`, `Teacher`, and `Student`. These classes should be properly split into header and source files.
-2. A `Teacher` can have multiple `Student`s, and a `Student` can have multiple `Teacher`s (many-to-many association).
-3. A `School` should manage its `Teacher`s and `Student`s (aggregation).
-4. Implement the following methods within the `School` class: `enrollStudent` for enrolling `Student`s, `hireTeacher` for hiring `Teacher`s, and `assignStudent` for assigning a `Student` to a `Teacher`.
-5. Demonstrate this code works by making a `School` object, hire a `Teacher`, enroll some `Student`s, then assign these `Student`s to the `Teacher`.
+1. `School`、`Teacher`、`Student` の各クラスを作成します。ヘッダーファイルとソースファイルに分けてこれらのクラスを書いてください。
+2. `Teacher` は複数の `Student` を持ち、`Student` は複数の `Teacher` を持つことができます （多対多の関連）。
+3. `School` は複数の `Teacher` と `Student` を管理する必要があります (集約)。
+4. `School` クラスには `Student` を登録するための `enrollStudent` メソッドと、`Teacher` を雇うための `hireTeacher` メソッド、`Student` を `Teacher` に割り当てるための `assignStudent` メソッドを実装してください。
+5. `School` オブジェクトを作成して `Teacher`を雇い、何人かの `Student` を登録した後、これらの `Student` を `Teacher` に割り当ててこのコードの動作を確認します。

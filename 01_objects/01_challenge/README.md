@@ -1,22 +1,22 @@
-# Challenge 1
+# チャレンジ1
 
-Create a scoped enum `TrafficLight` representing the colors of a traffic light: `red`, `yellow`, and `green`.
+信号機の色 (`red`、`yellow`、`green`) を表すスコープ付き列挙型 `TrafficLight` を作成します。
 
-Complete the following function that takes a `TrafficLight` as an input and returns the action corresponding to the traffic light color as a string.
+`TrafficLight` を入力として受け取り、その信号の色が表すアクション (Go、Caution、Stop) を文字列で返す次の関数を完成させてください。
 
 ```cpp
 std::string get_action(TrafficLight light) {
-    // TODO
+    // コードを入力してください
 }
 ```
 
-Input:
+入力:
 
 ```cpp
 TrafficLight::red
 ```
 
-Output:
+出力:
 
 ```cpp
 "Stop"

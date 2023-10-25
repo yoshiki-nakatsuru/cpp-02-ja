@@ -1,10 +1,10 @@
-# Challenge 2
+# チャレンジ2
 
-Create a class template called `Stack` that mimics the behavior of a stack. This class should have the following member functions:
+スタックの動作を模倣したクラステンプレート「`Stack`」を作成します。このクラスには次のメンバ関数を用意してください。
 
-- `void push(const T& value)`, which pushes a value onto the stack.
-- `void pop()`, which pops the top value off the stack.
-- `T top() const`, which returns the value on the top of the stack.
-- `bool is_empty() const`, which returns if the stack is empty.
+- `void push(const T& value)`: スタックに値を入れます (プッシュします)。
+- `void pop()`: スタックから一番上の値を取り出します (ポップします)。
+- `T top() const`: スタックの一番上の値を返します。
+- `bool is_empty() const`: スタックが空の場合に返します。
 
-Use a standard library container (e.g., `std::vector`, `std::list`, or `std::deque`) as the underlying data structure for the stack. Test your class with at least two different types of containers.
+スタックの基本データ構造として、標準ライブラリのコンテナ (`std::vector`、`std::list`、`std::deque` など) を使用します。2種類以上のコンテナを使用してクラスをテストしてください。

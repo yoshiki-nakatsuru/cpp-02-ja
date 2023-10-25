@@ -1,6 +1,6 @@
-# Challenge 2
+# チャレンジ2
 
-Examine the following code snippet and identify any issues with the abstract class and virtual function. Provide a corrected version of the code.
+次のコードスニペットを調べて抽象クラスと仮想関数に関する問題を特定し、コードを修正してください。
 
 ```cpp
 class Shape {

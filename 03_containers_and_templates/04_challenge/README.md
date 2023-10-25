@@ -1,10 +1,10 @@
-# Challenge 4
+# チャレンジ4
 
-Design a program that reads a text file containing a list of names and phone numbers. The program should store the names and phone numbers in a `std::map` container. Implement the following features:
+名前と電話番号のリストを含むテキストファイルを読み取るプログラムを設計します。プログラムでは、`std::map` コンテナに名前と電話番号を格納してください。次の機能を実装します。
 
-- Add a name and phone number to the map.
-- Remove a name and its associated phone number from the map.
-- Search for a phone number based on a given name.
-- Display all names and phone numbers in alphabetical order.
+- 名前と電話番号をmapに追加します。
+- 名前とそれに紐づく電話番号をmapから削除します。
+- 特定の名前で電話番号を検索します。
+- すべての名前と電話番号をアルファベット順に表示します。
 
-In this challenge, you will need to research and understand how to use `std::map` and its associated functions. Also, you'll need to implement input validation and error handling to ensure the program works as expected.
+この課題では、`std::map` とそれに関連する関数の使い方を調べて理解する必要があります。また、プログラムが想定どおりに動作するように、入力の検証とエラー処理を実装してください。

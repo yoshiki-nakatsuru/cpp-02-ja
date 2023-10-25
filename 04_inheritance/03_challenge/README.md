@@ -1,3 +1,3 @@
-# Challenge 3
+# チャレンジ3
 
-Create a base class named `Animal` with a public member function `makeSound()` that outputs "Unknown sound." Create a derived class named `Dog` that inherits from `Animal`. Override the `makeSound()` function in the `Dog` class to output "Woof!". Test the `Dog` class by creating an object and calling its `makeSound()` function.
+`Animal` という名前の基底クラスを作成し、"Unknown sound"と出力するpublicメンバ関数 `makeSound()` を実装してください。 次に、`Animal` を継承した派生クラス `Dog` を作成します。`Dog` クラスで `makeSound()` 関数をオーバーライドして"Woof!"と出力するようにします。`Dog` クラスのオブジェクトを作成し、`makeSound()` 関数を呼び出してテストしてください。

@@ -1,5 +1,5 @@
-# Challenge 1: Dependency Relationship
+# チャレンジ1: 関係 - 依存
 
-1. Create a `Logger` class with a function `logMessage` that receives a message and outputs that message to standard out. This class should be properly split into header and source files.
-2. Modify the `Car` class from the Interface and Implementation content to use (dependency) the `Logger` class for logging when a price change occurs inside `setPrice`.
-3. This should replace the `printPriceChange` function, so you can remove this function from the `Car` class.
+1. `Logger` クラスを作成し、受けとったメッセージを標準出力に出力する関数 `logMessage` をこのクラス内に作成してください。ヘッダーファイルとソースファイルに分けてこのクラスを書いてください。
+2. 「インターフェイスと実装」に記載されている `Car` クラスを修正し、`setPrice` 内で価格が変更されたら `Logger` クラスを使用 （依存） してログに記録するようにします。
+3. これは `printPriceChange` 関数に代わる機能であるため、`Car` クラスからこの関数を削除してください。

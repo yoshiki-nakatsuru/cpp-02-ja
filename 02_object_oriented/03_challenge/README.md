@@ -1,6 +1,6 @@
-# Challenge 3: Aggregation Relationship
+# チャレンジ3: 関係 - 集約
 
-1. Create a `Garage` class that can hold multiple `Car`s. This class should be properly split into header and source files.
-2. Implement methods `addCar` for adding and `removeCar` for removing `Car`s from the `Garage`.
-3. Use `std::vector<Car>` to manage the `Car`s within the `Garage`.
-4. Demonstrate the relationship by making a `Garage` object and adding and removing `Car` objects.
+1. 複数の `Car` を格納できる `Garage` クラスを作成します。ヘッダーファイルとソースファイルに分けてこのクラスを書いてください。
+2. `Garage` に `Cars` を入れる (追加する) ための `addCar` メソッドと、`Garage` から `Cars` を出す (削除する) ための `removeCar` メソッドを実装します。
+3. `Garage` 内の `Car` を管理するために `std::vector<Car>` を使用します。
+4. `Garage` オブジェクトを作成した後、`Car` オブジェクトを追加/削除してこの関係を確認してください。

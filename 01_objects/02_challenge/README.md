@@ -1,14 +1,14 @@
-# Challenge 2
+# チャレンジ2
 
-Define a struct `Rectangle` with two float members: `width` and `height`. Write a function `rectangle_area` that takes a `Rectangle` object as input and returns its area.
+2つのfloat型のメンバ `width` と `height` を含む構造体 `Rectangle` を定義します。`Rectangle` オブジェクトを入力として受け取り、その面積を返す関数 `Rectangle_area` を書いてください。
 
-Input:
+入力:
 
 ```
 4 5
 ```
 
-Output:
+出力:
 
 ```
 20
