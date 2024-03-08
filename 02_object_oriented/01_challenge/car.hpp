@@ -1,5 +1,5 @@
 #include <string>
-
+#include "logger.hpp"
 class Car {
 public:
     Car(std::string make, std::string model, int year, double price);
@@ -12,12 +12,12 @@ public:
     double getPrice() const;
 
     void displayInfo() const;
-
+    void displayPriceHistory() const;
 private:
-    void printPriceChange(double from, double to) const;
-
     std::string make;
     std::string model;
     int year;
     double price;
+    Logger log;
+
 };

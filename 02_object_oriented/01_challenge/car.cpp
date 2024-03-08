@@ -10,7 +10,8 @@ Car::Car(std::string make, std::string model, int year, double price)
 }
 
 void Car::setPrice(double price) {
-    printPriceChange(this->price, price);
+    std::string message = "Changing price from " + std::to_string(this->price) + " to " + std::to_string(price);
+    this->log.logMessage(message);
     this->price = price;
 }
 
@@ -23,6 +24,6 @@ void Car::displayInfo() const {
     std::cout << year << " " << make << " " << model << " - $" << price << "\n";
 }
 
-void Car::printPriceChange(double from, double to) const {
-    std::cout << "Changing price from " << from << " to " << to << "\n";
+void Car::displayPriceHistory() const {
+    this->log.allLogMessage();
 }
