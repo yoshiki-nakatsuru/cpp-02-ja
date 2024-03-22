@@ -1,4 +1,5 @@
 #include <string>
+#include "driver.hpp"
 
 class Car {
 public:
@@ -11,6 +12,9 @@ public:
     int getYear() const;
     double getPrice() const;
 
+    Driver* getDriver() const;
+    void setDriver(Driver* driver);
+
     void displayInfo() const;
 
 private:
@@ -20,4 +24,5 @@ private:
     std::string model;
     int year;
     double price;
+    Driver* driver;
 };
